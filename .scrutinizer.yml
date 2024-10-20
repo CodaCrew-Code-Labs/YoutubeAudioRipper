@@ -1,0 +1,19 @@
+filter:
+  excluded_paths:
+    - 'migrations/*'
+    - 'tests/*'
+
+tools:
+  flake8: true
+  black: true
+
+checks:
+  python: true
+
+coding_style:
+  python: true
+
+build:
+  environment:
+    python:
+      version: "3.12.7"
