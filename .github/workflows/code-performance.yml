@@ -34,7 +34,16 @@ jobs:
           pip install poetry
           make install
 
-      # Run tests (optional)
+      # Set environment variables for database configuration
+      - name: Set up database environment variables
+        run: |
+          echo "DB_USER=${{ secrets.DB_USER }}" >> $GITHUB_ENV
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> $GITHUB_ENV
+          echo "DB_HOSTNAME=${{ secrets.DB_HOSTNAME }}" >> $GITHUB_ENV
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> $GITHUB_ENV
+          echo "DEFAULT_DB=${{ secrets.DEFAULT_DB }}" >> $GITHUB_ENV
+
+      # Run tests
       - name: Run tests
         run: |
           poetry run pytest --cov .
