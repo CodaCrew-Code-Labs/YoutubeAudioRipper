@@ -51,4 +51,4 @@ jobs:
       - name: Upload coverage reports to Codecov
         run: |
           pip install codecov
-          codecov --verbose -t '${{ secrets.CODECOV_TOKEN }} -n 'service'-${{ github.run_id }} -F service -f coverage-service.xml
+          codecov --verbose -t ${{ secrets.CODECOV_TOKEN }} -n 'service'-${{ github.run_id }} -F service -f coverage-service.xml
