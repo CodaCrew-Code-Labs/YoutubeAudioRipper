@@ -2,11 +2,7 @@ filter:
   excluded_paths:
     - 'migrations/*'
     - 'tests/*'
-
-tools:
-  flake8: true
-  black: true
-
+    
 checks:
   python: true
 
