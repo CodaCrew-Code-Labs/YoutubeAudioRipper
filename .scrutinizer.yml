@@ -6,9 +6,6 @@ filter:
 checks:
   python: true
 
-coding_style:
-  python: true
-
 build:
   environment:
     python:
