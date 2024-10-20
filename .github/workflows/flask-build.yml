@@ -34,6 +34,15 @@ jobs:
           pip install poetry
           make install
 
+      # Set environment variables for database configuration
+      - name: Set up database environment variables
+        run: |
+          echo "DB_USER=${{ secrets.DB_USER }}" >> $GITHUB_ENV
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> $GITHUB_ENV
+          echo "DB_HOSTNAME=${{ secrets.DB_HOSTNAME }}" >> $GITHUB_ENV
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> $GITHUB_ENV
+          echo "DEFAULT_DB=${{ secrets.DEFAULT_DB }}" >> $GITHUB_ENV
+
       # Step 3: Build the Docker image
       - name: Build Docker image
         run: docker build --no-cache --progress=plain -t ytaudioripper:latest .
@@ -41,4 +50,4 @@ jobs:
       # Run tests (optional)
       - name: Run tests
         run: |
-          make test
+          poetry run pytest --cov --cov-report=xml:coverage-service.xml -v
