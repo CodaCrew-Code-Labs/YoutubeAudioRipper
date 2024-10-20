@@ -37,7 +37,7 @@ jobs:
       # Run tests (optional)
       - name: Run tests
         run: |
-          run: poetry run pytest --cov .
+          poetry run pytest --cov .
   
       - name: Upload coverage reports to Codecov
         run: |
