@@ -1,0 +1,2 @@
+# YoutubeAudioRipper
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/68d2976074624a878b151ebf8ac83c63)](https://app.codacy.com/gh/CodaCrew-Code-Labs/YoutubeAudioRipper?utm_source=github.com&utm_medium=referral&utm_content=CodaCrew-Code-Labs/YoutubeAudioRipper&utm_campaign=Badge_Grade)
