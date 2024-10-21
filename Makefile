@@ -24,7 +24,7 @@ format:
 
 # Run tests
 test:
-	poetry install --no-root
+	pytest
 
 # Check coverage
 coverage:
