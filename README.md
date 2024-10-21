@@ -71,6 +71,7 @@ This section list frameworks/libraries used to bootstrap the project as well as 
 [![Codecov][Codecov]][Codecov-url]
 [![Codefactor][Codefactor]][Codefactor-url]
 [![Codacy][Codacy]][Codacy-url]
+[![Scrutinizer][Scrutinizer]][Scrutinizer-url]
 
 
 #### Supported Platforms
@@ -83,7 +84,7 @@ This section list frameworks/libraries used to bootstrap the project as well as 
 
 #### Other Apps
 
-* [Synk](https://app.snyk.io/org/codacrew-code-labs)
+* [Snyk](https://app.snyk.io/org/codacrew-code-labs)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -234,3 +235,5 @@ This project is licensed under the MIT License.
 [Codefactor-url]: https://www.codefactor.io/repository/github/codacrew-code-labs/youtubeaudioripper
 [Codacy]: https://img.shields.io/codacy/grade/c75aad4375bc416696c80b4553f653b6/dev?style=for-the-badge&logo=codacy&label=Codacy
 [Codacy-url]: https://app.codacy.com/gh/CodaCrew-Code-Labs/YoutubeAudioRipper/dashboard
+[Scrutinizer]: https://img.shields.io/scrutinizer/quality/g/CodaCrew-Code-Labs/YoutubeAudioRipper?style=for-the-badge&label=Scrutinizer%20Code%20Quality
+[Scrutinizer-url]: https://scrutinizer-ci.com/g/CodaCrew-Code-Labs/YoutubeAudioRipper/
