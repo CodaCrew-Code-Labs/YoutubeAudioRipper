@@ -87,9 +87,6 @@ This section list frameworks/libraries used to bootstrap the project as well as 
 * [Snyk](https://app.snyk.io/org/codacrew-code-labs)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## Installation Instructions
 
 ### Prerequisites
@@ -158,8 +155,6 @@ This section list frameworks/libraries used to bootstrap the project as well as 
    make run
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Features
 
 - Download YouTube videos by providing a URL.
@@ -168,26 +163,18 @@ This section list frameworks/libraries used to bootstrap the project as well as 
 - Secure and scalable storage using AWS S3.
 - API endpoint to trigger the video conversion and upload.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Changelog
 
 ### v1.0.0
 - Initial release.
 - Basic functionality of downloading YouTube video, converting to MP3, and storing in S3.
-  
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## API Documentation
 Yet to add the link
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## License
 
 This project is licensed under the MIT License.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
